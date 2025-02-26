@@ -5,7 +5,18 @@ Blog Tarefa StackX
 
 Um blog estático moderno focado em tecnologias de desenvolvimento web, construído com HTML, CSS e JavaScript. Ideal para compartilhar artigos sobre Frontend, Backend, DevOps e outras tendências tech!
 
+## estrutura
 
+tech-blog-2025/
+├── index.html          # Página inicial com lista de posts
+├── post.html           # Página de post completo
+├── js/
+│   ├── main.js         # Lógica da página inicial (filtros, temas)
+│   ├── post.js         # Carrega conteúdo do post
+│   └── posts.js        # Banco de dados de posts (títulos, conteúdo, imagens)
+├── css/
+│   └── style.css       # Estilos globais e temas
+└── img/                # Pasta para imagens dos posts
 
 ## Funcionalidades
 
